@@ -1,0 +1,44 @@
+# Dependências e Builds Locais
+node_modules
+dist
+build
+.pnp
+.pnp.js
+
+# Testes e Cobertura
+coverage
+.nyc_output
+
+# Logs e Arquivos de Execução
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Ambientes e Segredos
+.env
+.env.*
+!.env.example
+
+# Controle de Versão
+.git
+.gitignore
+.gitmodules
+
+# IDEs, Editores e OS
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
